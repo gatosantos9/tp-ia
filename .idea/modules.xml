@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/tp-ia.iml" filepath="$PROJECT_DIR$/tp-ia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AcertijoEinstein.iml" filepath="$PROJECT_DIR$/AcertijoEinstein.iml" />
+      <module fileurl="file://$PROJECT_DIR$/utgenes-master/utgenes-master.iml" filepath="$PROJECT_DIR$/utgenes-master/utgenes-master.iml" />
     </modules>
   </component>
 </project>
