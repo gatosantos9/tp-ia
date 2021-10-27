@@ -27,6 +27,10 @@ public class Cromosoma extends Individuo {
 		this.colores = colores;
 	}
 
+	public ArrayList<String> getColores() {
+		return colores;
+	}
+
 	public ArrayList<String> getNacionalidades() {
 		return nacionalidades;
 	}
@@ -529,6 +533,86 @@ public class Cromosoma extends Individuo {
 			} else {
 				aptitud -= 10;
 			}
+		}
+
+		//Se agregan condiciones que salen del analisis de pistas y restricciones.
+
+		if (this.casas.get(this.indicePor("Color", "Amarilla")).getUbicacion() == "Primera") {
+			aptitud += 30;
+		} else {
+			aptitud -= 10;
+		}
+
+		if (this.casas.get(this.indicePor("Color", "Azul")).getUbicacion() == "Segunda") {
+			aptitud += 30;
+		} else {
+			aptitud -= 10;
+		}
+
+		if (this.casas.get(this.indicePor("Color", "Roja")).getUbicacion() == "Tercera") {
+			aptitud += 30;
+		} else {
+			aptitud -= 10;
+		}
+
+		if (this.casas.get(this.indicePor("Color", "Verde")).getUbicacion() == "Cuarta") {
+			aptitud += 30;
+		} else {
+			aptitud -= 10;
+		}
+
+		if (this.casas.get(this.indicePor("Color", "Blanca")).getUbicacion() == "Quinta") {
+			aptitud += 30;
+		} else {
+			aptitud -= 10;
+		}
+
+		if (this.casas.get(this.indicePor("Ubicacion", "Segunda")).getMascota() == "Caballo") {
+			aptitud += 30;
+		} else {
+			aptitud -= 10;
+		}
+
+		if (this.casas.get(this.indicePor("Nacionalidad", "Britanico")).getUbicacion() == "Tercera") {
+			aptitud += 30;
+		} else {
+			aptitud -= 10;
+		}
+
+		if (this.casas.get(this.indicePor("Nacionalidad", "Britanico")).getBebida() == "Leche") {
+			aptitud += 30;
+		} else {
+			aptitud -= 10;
+		}
+
+		if (this.casas.get(this.indicePor("Ubicacion", "Cuarta")).getBebida() == "Cafe") {
+			aptitud += 30;
+		} else {
+			aptitud -= 10;
+		}
+
+		if (this.casas.get(this.indicePor("Nacionalidad", "Sueco")).getUbicacion() != "Segunda") {
+			aptitud += 30;
+		} else {
+			aptitud -= 10;
+		}
+
+		if (this.casas.get(this.indicePor("Nacionalidad", "Danes")).getUbicacion() != "Cuarta") {
+			aptitud += 30;
+		} else {
+			aptitud -= 10;
+		}
+
+		if (this.casas.get(this.indicePor("Cigarro", "Blends")).getUbicacion() != "Primera") {
+			aptitud += 30;
+		} else {
+			aptitud -= 10;
+		}
+
+		if (this.casas.get(this.indicePor("Cigarro", "Blends")).getUbicacion() != "Quinta") {
+			aptitud += 30;
+		} else {
+			aptitud -= 10;
 		}
 
 		return aptitud;
