@@ -1,0 +1,8 @@
+oct. 27, 2021 12:53:01 P. M. main.java.ar.edu.utn.frba.ia.ag.AlgoritmoGenetico loggearEstado
+INFORMACIÓN: Individuo mas Apto: (A: Cuarta, Roja, Britanico, Prince, Cerveza, Pez) (B: Primera, Verde, Noruego, Dunhill, Cafe, Gato) (C: Segunda, Blanca, Danes, Blends, Agua, Caballo) (D: Quinta, Amarilla, Sueco, Bluemaster, Te, Perro) (E: Tercera, Azul, Aleman, PallMall, Leche, Pajaros) Apto: 210.0
+oct. 27, 2021 12:53:01 P. M. main.java.ar.edu.utn.frba.ia.ag.AlgoritmoGenetico loggearEstado
+INFORMACIÓN: Cantidad de Veces que muto: 54 / 99
+oct. 27, 2021 12:53:01 P. M. main.java.ar.edu.utn.frba.ia.ag.AlgoritmoGenetico loggearEstado
+INFORMACIÓN: Individuo Campeon: (A: Cuarta, Roja, Britanico, Prince, Cerveza, Pez) (B: Primera, Verde, Noruego, Dunhill, Cafe, Gato) (C: Segunda, Blanca, Danes, Blends, Agua, Caballo) (D: Quinta, Amarilla, Sueco, Bluemaster, Te, Perro) (E: Tercera, Azul, Aleman, PallMall, Leche, Pajaros) Apto: 210.0
+oct. 27, 2021 12:53:01 P. M. main.java.ar.edu.utn.frba.ia.ag.AlgoritmoGenetico loggearEstado
+INFORMACIÓN: Peor Individuo: (A: Segunda, Roja, Sueco, Dunhill, Leche, Caballo) (B: Cuarta, Verde, Danes, PallMall, Cerveza, Pajaros) (C: Primera, Blanca, Aleman, Blends, Agua, Perro) (D: Quinta, Amarilla, Noruego, Bluemaster, Cafe, Pez) (E: Tercera, Azul, Britanico, Prince, Te, Gato) Apto: -110.0

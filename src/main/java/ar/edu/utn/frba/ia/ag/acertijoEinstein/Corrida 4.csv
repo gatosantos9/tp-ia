@@ -1,0 +1,8 @@
+oct. 27, 2021 2:47:12 P. M. main.java.ar.edu.utn.frba.ia.ag.AlgoritmoGenetico loggearEstado
+INFORMACIÓN: Individuo mas Apto: (A: Quinta, Roja, Aleman, Prince, Agua, Caballo) (B: Tercera, Verde, Sueco, Bluemaster, Leche, Perro) (C: Primera, Blanca, Noruego, Blends, Cafe, Pez) (D: Cuarta, Amarilla, Britanico, Dunhill, Cerveza, Gato) (E: Segunda, Azul, Danes, PallMall, Te, Pajaros) Apto: 210.0
+oct. 27, 2021 2:47:12 P. M. main.java.ar.edu.utn.frba.ia.ag.AlgoritmoGenetico loggearEstado
+INFORMACIÓN: Cantidad de Veces que muto: 4 / 10
+oct. 27, 2021 2:47:12 P. M. main.java.ar.edu.utn.frba.ia.ag.AlgoritmoGenetico loggearEstado
+INFORMACIÓN: Individuo Campeon: (A: Quinta, Roja, Aleman, Prince, Agua, Caballo) (B: Tercera, Verde, Sueco, Bluemaster, Leche, Perro) (C: Primera, Blanca, Noruego, Blends, Cafe, Pez) (D: Cuarta, Amarilla, Britanico, Dunhill, Cerveza, Gato) (E: Segunda, Azul, Danes, PallMall, Te, Pajaros) Apto: 210.0
+oct. 27, 2021 2:47:12 P. M. main.java.ar.edu.utn.frba.ia.ag.AlgoritmoGenetico loggearEstado
+INFORMACIÓN: Peor Individuo: (A: Primera, Roja, Danes, Blends, Cafe, Pajaros) (B: Cuarta, Verde, Britanico, Prince, Cerveza, Caballo) (C: Segunda, Blanca, Aleman, Dunhill, Leche, Pez) (D: Tercera, Amarilla, Sueco, Bluemaster, Te, Gato) (E: Quinta, Azul, Noruego, PallMall, Agua, Perro) Apto: -150.0
